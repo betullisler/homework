@@ -1,0 +1,36 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@project-serum/anchor": "^0.26.0",
+    "@solana/web3.js": "^1.95.0",
+    "@types/bs58": "^4.0.4",
+    "@types/node": "^20.14.10",
+    "add": "^2.0.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "yarn": "^1.22.22"
+  },
+  "scripts": {
+    "sk_decode": "ts-node ./sk_decode.ts",
+    "call_program": "ts-node ./call_program.ts"
+  },
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@metaplex-foundation/umi-uploader-bundlr": "^0.9.2",
+    "@solana/spl-token": "0.4.1",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.95.0",
+    "bs58": "^6.0.0",
+    "next": "^14.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
